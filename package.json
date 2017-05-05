@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src/typer.js --out-file build/typer.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drihup/drihup.typer.js.git"
+  },
   "author": "Ricardo Huamani <drihupp@gmail.com>",
   "license": "MIT",
   "dependencies": {
