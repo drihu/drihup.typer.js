@@ -1,0 +1,19 @@
+{
+  "name": "typer.js",
+  "version": "0.0.0",
+  "description": "A simple jQuery plugin to make a typing animation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/typer.js --out-file build/typer.js"
+  },
+  "author": "Ricardo Huamani <drihupp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
+  }
+}
