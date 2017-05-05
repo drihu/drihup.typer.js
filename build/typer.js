@@ -17,11 +17,11 @@ var Typer = function ($) {
 
     if (typeof content === 'string') {
       content = content || this.text();
-      time = time || 100;
+      time = time || 200;
       callback = callback || null;
 
       if (typeof time !== 'number') {
-        time = 100;
+        time = 200;
       }
     } else {
       throw new Error('You need to specify a content value.');
